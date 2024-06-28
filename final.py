@@ -11,7 +11,7 @@ import threading
 from Google import Create_Service  # Assuming this is a custom function to create Gmail API service
 
 # Constants for Gmail API
-CLIENT_SECRET_FILE = 'D:/ml-aat/client_secret_57611380869-tbau2sq0q4m3nj96qv1onsjd9us5stkh.apps.googleusercontent.com.json'
+CLIENT_SECRET_FILE = '.json'
 API_NAME = 'gmail'
 API_VERSION = 'v1'
 SCOPES = ['https://mail.google.com/']
@@ -51,13 +51,13 @@ if not known_face_encodings:
 
 # Email dictionary
 emails = {
-    'Faf du Plessis': 'yashwanthchanda12@gmail.com',
-    'Virat Kohli': 'skadoosh5270@gmail.com',
-    'Glenn Maxwell': 'yashwanthchanda12@gmail.com',
-    'Elon Musk': 'chandayeswanth.20@gmail.com',
-    'MS Dhoni': 'yashwanthchanda12@gmail.com',
-    'Tom Cruise': 'chandayeswanth.20@gmail.com',
-    'Sachin Tendulkar': 'yashwanthchanda12@gmail.com'
+    'Faf du Plessis': '@gmail.com',
+    'Virat Kohli': '@gmail.com',
+    'Glenn Maxwell': '@gmail.com',
+    'Elon Musk': '@gmail.com',
+    'MS Dhoni': '@gmail.com',
+    'Tom Cruise': '@gmail.com',
+    'Sachin Tendulkar': @gmail.com'
 }
 
 def recognize_face(img):
